@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Mobile Styles */
+  @media only screen and (max-width: 400px) {
+    body {
+      background-color: #F09A9D; /* Red */
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #F5CF8E; /* Yellow */
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: #B2D6FF; /* Blue */
+    }
+  }
+
+.header{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    height: 30px;
+    width: 0 auto;
+    background-color:black;
+    
+}
+.listas {
+    
+    background-color:black;
+    height: 40px;
+    width: 0 auto;
+    padding-top: 1px;
+    text-align: center;
+        
+}
+
+.listas ul li{
+    display: inline;
+    color: wheat;
+    list-style: none;    
+    text-transform: uppercase;
+    margin: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.conteudo{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    flex-direction: row;    
+    background-color:black;
+    justify-content: space-between;
+    height: 100%;
+    width: 0 auto;
+
+}
+
+.bola{
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    height: 80px;
+    width: 180px;
+    justify-content: space-around;
+}
+
+.ball{
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    margin-right: 5px;
+    text-align: center;
+    justify-content: space-around;
+        
+
+}
+
+.boll{
+    background-color:green;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    margin-left: 5px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.testt{
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    height: 80px;
+    width: 180px;
+    justify-content: space-around;
+
+}
+
+.tesste{
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    margin-right: 5px;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.tesste2{
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    margin-left: 4px;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.tesset{
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    height: 80px;
+    width: 180px;
+    justify-content: space-around;
+    margin-right: 5px;
+}
+
+.tesset2{
+    background-color:green;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    margin-right: 5px;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.tesset3{
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    margin-left: 5px;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.rodape{
+    background-color: bisque;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 5px;
+    
+
+}
